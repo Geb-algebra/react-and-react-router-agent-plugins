@@ -1,0 +1,17 @@
+{
+  "name": "react-and-react-router-agent-plugins",
+  "owner": {
+    "name": "Geb-algebra"
+  },
+  "plugins": [
+    {
+      "name": "react-router-route-module-patterns",
+      "source": "./route-module-patterns",
+      "description": "Adds a skill for implementing pages and components for React Router",
+      "version": "1.0.0",
+      "author": {
+        "name": "Geb-algebra",
+      },
+    }
+  ]
+}
