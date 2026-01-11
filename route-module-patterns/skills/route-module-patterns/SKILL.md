@@ -1,5 +1,5 @@
 ---
-name: react-router-route-module-patterns
+name: route-module-patterns
 description: How to implement Route Modules for React Router. Use when you implement any page or component using React Router's features (loader, action, clientLoader, clientAction, fetcher, Form, etc.).
 ---
 
@@ -13,7 +13,7 @@ This section defines terms we use in the remainder of this document.
 
 ### Route Module
 
-A Route Module is a `.tsx` file which is rendered as a page by React Router. 
+A Route Module is a `.tsx` file which is rendered as a page by React Router.
 A `.tsx` file is technically specified as a Route Module by adding it to `routes.ts`.
 
 ### Route Component
@@ -85,10 +85,10 @@ The Route Module also optionally has `loader` and/or `action` (for server data) 
 import type { Route } from "./+types/sample-page";
 
 export function meta({}: Route.MetaArgs) {
-	return [
-		{ title: "Sample" },
-		{ name: "description", content: "sample" },
-	];
+ return [
+  { title: "Sample" },
+  { name: "description", content: "sample" },
+ ];
 }
 
 // omit if no server data
