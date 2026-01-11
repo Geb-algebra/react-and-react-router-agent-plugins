@@ -1,0 +1,8 @@
+{
+  "name": "route-module-patterns",
+  "description": "How to implement Route Modules for React Router. Use when you implement any page or component using React Router's features (loader, action, clientLoader, clientAction, fetcher, Form, etc.).",
+  "version": "0.0.0",
+  "author": {
+    "name": "Geb-algebra"
+  }
+}
